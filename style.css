@@ -1,0 +1,200 @@
+html,body{
+    margin: 0px;
+    width: 100%;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+.header{
+    background-color: #0a1930;
+    
+}
+
+.navtxt:hover{
+    display: inline-block;
+    padding-top: 3px;
+    border-bottom: 2px solid #ffffff;
+      
+}
+.ma-name{
+
+   color : #ffffff;
+   margin-left: 10px;
+   
+}
+a:hover{
+    text-decoration: none;
+}
+.scnd-part{
+
+    font-family: emoji;
+    
+}
+.fon-btn{
+    background-color: #ffffff;
+     
+}
+
+
+
+.f-section{
+    background-color: #ffffff;
+    /* #080622;*/
+    
+}
+.btn-contact{
+    background: #0a1930;
+    font-size: 20px;
+    border-radius: 8px;
+    height: 40px;
+    border: none;
+    width: 145px;
+    font-family: sans-serif;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+
+
+.s-section{
+    background: #0a1930;
+    
+}
+label{
+    padding-right: 10px;
+    font-size: 1rem;
+
+
+}
+
+.perc{
+    
+    margin-left: 8px;
+    font-family: system-ui;
+    font-size: 17px;
+    color: darkgray;
+}
+
+.row-content{
+    text-align: center;
+
+}
+.about-txt{
+
+    text-align: center;
+    font-size: 35px;
+       
+}
+span{
+    display: inline-block;
+    border-bottom: 3px solid rgb(255, 255, 255);
+    padding-bottom: 15px;
+   
+}
+.text-contact{
+    color: #0a1930;
+    border-bottom: 3px solid #0a1930;
+    padding-bottom: 18px;
+}
+
+
+.contact-color{
+  background: #ffffff;
+  
+}
+.footer-clr{
+    background-color: #06152c;
+}
+.input-space{
+    background-color: #06152c;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 16px;
+    border-radius: 6px;
+}
+
+.input-style{
+
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    color: #ffffff;
+    background-color: #06152c;
+    border: 1px solid #06152c;
+    border-radius: 6px;
+
+
+}
+.input-style:hover{
+    border: 1px solid #ffffff;
+    
+}
+
+
+.container-spcl{
+
+    height: 100%;
+    background:#000000a2 url('images/bg-image.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment:fixed;
+    background-blend-mode:darken ;
+
+}
+.service-color{
+
+    color: white;
+    height: auto;
+    font-size: 42px;
+    width: auto;
+    font-family: sans-serif;
+
+   
+}
+.card-b{
+   background-color: #000000a4;
+   border-top-right-radius:20px ;
+   border: none;
+   width: 9cm;
+   box-shadow: 4px 4px 10px 2px rgb(0, 0, 0);
+}
+
+
+.img-border{
+    border-top-right-radius: 20px;
+    border: none;
+}
+
+.text-clr{
+    color: #ffffff;
+}
+
+.offer{
+    font-size: 17px;
+    font-style: italic;
+    text-align: center;
+    color: white;
+}
+.arow-icon{
+    padding-left: 80px;
+    margin-top: -45px;
+    
+
+}
+body{
+    margin: 0;
+
+}
+.icon-fixed{
+    padding-left: 410px;
+    color: #ffffff;
+    font-size: 30px;
+    text-shadow: 2px 2px #4e0a9b;
+    top:15cm;
+    position: fixed;
+}
+
+.address-info{
+    color: #0a1930;
+}

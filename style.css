@@ -16,6 +16,8 @@ html,body{
     border-bottom: 2px solid #ffffff;
       
 }
+
+
 .ma-name{
 
    color : #ffffff;
@@ -25,23 +27,12 @@ html,body{
 a:hover{
     text-decoration: none;
 }
-.scnd-part{
 
-    font-family: emoji;
-    
-}
 .fon-btn{
-    background-color: #ffffff;
+    background-color: #0a1930;
      
 }
 
-
-
-.f-section{
-    background-color: #ffffff;
-    /* #080622;*/
-    
-}
 .btn-contact{
     background: #0a1930;
     font-size: 20px;
@@ -134,7 +125,7 @@ span{
 .container-spcl{
 
     height: 100%;
-    background:#000000a2 url('images/bg-image.jpg');
+    background:#000000a2 url('images/servicebg.webp');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

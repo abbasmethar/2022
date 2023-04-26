@@ -3,10 +3,11 @@ html,body{
     width: 100%;
     padding: 0px;
     overflow-x: hidden;
+    /* #0a1930 main color*/
 }
 
 .header{
-    background-color: #0a1930;
+    background-color: #000000;
     
 }
 
@@ -22,6 +23,7 @@ html,body{
 
    color : #ffffff;
    margin-left: 10px;
+   font-family: 'Bebas Neue', cursive;
    
 }
 a:hover{
@@ -34,7 +36,7 @@ a:hover{
 }
 
 .btn-contact{
-    background: #0a1930;
+    background: #ffffff;
     font-size: 20px;
     border-radius: 8px;
     height: 40px;
@@ -46,9 +48,19 @@ a:hover{
 
 }
 
+.homebg-img{
+
+    height: 100%;
+    background:#000000b3 url('images/logo.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode:darken ;
+
+}
 
 .s-section{
-    background: #0a1930;
+    background: #000000;
     
 }
 label{
@@ -58,13 +70,7 @@ label{
 
 }
 
-.perc{
-    
-    margin-left: 8px;
-    font-family: system-ui;
-    font-size: 17px;
-    color: darkgray;
-}
+
 
 .row-content{
     text-align: center;
@@ -83,22 +89,22 @@ span{
    
 }
 .text-contact{
-    color: #0a1930;
-    border-bottom: 3px solid #0a1930;
+    color: #ffffff;
+    border-bottom: 3px solid #ffffff;
     padding-bottom: 18px;
 }
 
 
 .contact-color{
-  background: #ffffff;
+  background: #000000;
   
 }
 .footer-clr{
-    background-color: #06152c;
+    background-color: #ffffff;
 }
 .input-space{
-    background-color: #06152c;
-    color: #ffffff;
+    background-color: #ffffff;
+    color: #000000;
     font-weight: 500;
     font-size: 16px;
     border-radius: 6px;
@@ -109,15 +115,15 @@ span{
     display: block;
     width: 100%;
     padding: .375rem .75rem;
-    color: #ffffff;
-    background-color: #06152c;
-    border: 1px solid #06152c;
+    color: #000000;
+    background-color: #ffffff;
+    border: 1px solid #000000;
     border-radius: 6px;
 
 
 }
 .input-style:hover{
-    border: 1px solid #ffffff;
+    border: 1px solid #000000;
     
 }
 
@@ -125,7 +131,7 @@ span{
 .container-spcl{
 
     height: 100%;
-    background:#000000a2 url('images/servicebg.webp');
+    background:#00000059 url('images/servicebg.webp');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -187,5 +193,5 @@ body{
 }
 
 .address-info{
-    color: #0a1930;
+    color: #ffffff;
 }

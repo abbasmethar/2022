@@ -137,7 +137,7 @@ span{
 }
 
 
-.container-spcl{
+.section-service{
 
     height: 100%;
     background:#000000a4 url('images/service-bg.jpg');
@@ -159,22 +159,32 @@ span{
    
 }
 .card-b{
-   background-color: #000000a4;
-   border-top-right-radius:20px ;
+   background-color: #000000;
+   color: #ffffff;
+   border-top-right-radius:24px ;
+   text-align: justify;
    border: none;
-   width: 9cm;
-   box-shadow: 4px 4px 10px 2px rgb(0, 0, 0);
+   box-shadow: 4px 4px 10px 2px #31004392;
+   
 }
 
+
+.card-b:hover{
+
+    transform: scale(1.1);
+    transition: 0.5s;
+    background-color: #ffffff;
+    color: #000000;
+
+}
 
 .img-border{
-    border-top-right-radius: 20px;
+
+    border-top-right-radius: 24px;
     border: none;
+
 }
 
-.text-clr{
-    color: #ffffff;
-}
 
 .offer{
     font-size: 17px;

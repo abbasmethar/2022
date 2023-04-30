@@ -4,6 +4,7 @@ html,body{
     padding: 0px;
     overflow-x: hidden;
     /* #0a1930 main color*/
+    
 }
 
 .header{
@@ -14,8 +15,13 @@ html,body{
 .navtxt:hover{
     display: inline-block;
     padding-top: 3px;
-    border-bottom: 2px solid #ffffff;
+    border-bottom: 2px solid #830000;
       
+}
+.navtxt{
+    font-family: 'Alumni Sans', sans-serif;
+   
+
 }
 
 
@@ -23,7 +29,8 @@ html,body{
 
    color : #ffffff;
    margin-left: 10px;
-   font-family: 'Bebas Neue', cursive;
+   font-family: 'Alumni Sans', sans-serif;
+
    
 }
 a:hover{
@@ -56,6 +63,8 @@ a:hover{
     background-position: center;
     background-size: cover;
     background-blend-mode:darken ;
+    background-attachment:fixed;
+   
 
 }
 
@@ -131,11 +140,11 @@ span{
 .container-spcl{
 
     height: 100%;
-    background:#00000059 url('images/servicebg.webp');
+    background:#000000a4 url('images/service-bg.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    background-attachment:fixed;
+  
     background-blend-mode:darken ;
 
 }
@@ -183,14 +192,7 @@ body{
     margin: 0;
 
 }
-.icon-fixed{
-    padding-left: 410px;
-    color: #ffffff;
-    font-size: 30px;
-    text-shadow: 2px 2px #4e0a9b;
-    top:15cm;
-    position: fixed;
-}
+
 
 .address-info{
     color: #ffffff;

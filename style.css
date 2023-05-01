@@ -3,7 +3,9 @@ html,body{
     width: 100%;
     padding: 0px;
     overflow-x: hidden;
-    /* #0a1930 main color*/
+    /* #0a1930 main color
+    font-family: 'Cinzel', serif
+    */
     
 }
 
@@ -12,30 +14,25 @@ html,body{
     
 }
 
-.navtxt:hover{
-    display: inline-block;
-    padding-top: 3px;
-    border-bottom: 2px solid #830000;
-      
-}
 .navtxt{
-    font-family: 'Alumni Sans', sans-serif;
-   
 
+    font-family: 'Alumni Sans', sans-serif;
+    color:#ffffff;
+    font-size: 25px;
 }
 
+.nav-btn{
+    border: none;
+}
 
 .ma-name{
 
    color : #ffffff;
    margin-left: 10px;
    font-family: 'Alumni Sans', sans-serif;
-
    
 }
-a:hover{
-    text-decoration: none;
-}
+
 
 .fon-btn{
     background-color: #0a1930;
@@ -86,21 +83,23 @@ label{
 
 }
 .about-txt{
-
     text-align: center;
-    font-size: 35px;
+    font-family: 'Alumni Sans', sans-serif;
        
 }
-span{
-    display: inline-block;
-    border-bottom: 3px solid rgb(255, 255, 255);
-    padding-bottom: 15px;
-   
+
+.about-img{
+    width: 280px; 
+    height: 280px;
+    border-radius: 20px;
+    border: 3px solid yellowgreen;
 }
+
 .text-contact{
     color: #ffffff;
     border-bottom: 3px solid #ffffff;
     padding-bottom: 18px;
+    font-family: 'Alumni Sans', sans-serif;
 }
 
 
@@ -148,18 +147,19 @@ span{
     background-blend-mode:darken ;
 
 }
-.service-color{
+.service-txt-style{
 
     color: white;
     height: auto;
+    text-align: center;
     font-size: 42px;
     width: auto;
-    font-family: sans-serif;
-
+    font-family: 'Alumni Sans', sans-serif;
    
 }
 .card-b{
    background-color: #000000;
+   font-family:  sans-serif;
    color: #ffffff;
    border-top-right-radius:24px ;
    text-align: justify;
@@ -187,10 +187,11 @@ span{
 
 
 .offer{
-    font-size: 17px;
+    font-size: 18px;
     font-style: italic;
     text-align: center;
     color: white;
+    font-family: sans-serif;
 }
 .arow-icon{
     padding-left: 80px;
@@ -206,4 +207,6 @@ body{
 
 .address-info{
     color: #ffffff;
+   
+
 }

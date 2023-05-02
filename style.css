@@ -1,61 +1,78 @@
 html,body{
-    margin: 0px;
+
+    margin: 0;
+    padding: 0;
     width: 100%;
-    padding: 0px;
     overflow-x: hidden;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+
     /* #0a1930 main color
-    font-family: 'Cinzel', serif
+    font-family: 'Cinzel', serif ;
+    font-family: 'Alumni Sans', sans-serif;
     */
     
 }
 
+:root{
+    --bg-color:#2a2a2a;
+    --second-bg-color:#202020;
+    --text-color:#fff;
+    --main-color:#ff4d05;
+}
+
 .header{
-    background-color: #000000;
+    background-color: #202020;
     
 }
 
 .navtxt{
 
-    font-family: 'Alumni Sans', sans-serif;
-    color:#ffffff;
-    font-size: 25px;
+    font-size: 20px;  
+    font-weight: 500;
 }
+
 
 .nav-btn{
     border: none;
 }
 
-.ma-name{
+.my-name{
 
    color : #ffffff;
-   margin-left: 10px;
-   font-family: 'Alumni Sans', sans-serif;
+   margin-left: 8px;
+   font-weight: 600;
+
    
 }
 
+span{
 
+    color: #ff4d05;
+}
 .fon-btn{
     background-color: #0a1930;
      
 }
 
 .btn-contact{
-    background: #ffffff;
+    background: #ff4d05;
+    color: #ffffff;
     font-size: 20px;
-    border-radius: 8px;
+    border-radius: 6px;
     height: 40px;
     border: none;
+    font-weight: 600;
     width: 145px;
-    font-family: sans-serif;
-    text-decoration: none;
     cursor: pointer;
+    text-decoration: none;
 
 }
 
 .homebg-img{
 
     height: 100%;
-    background:#000000b3 url('images/logo.jpg');
+    background:#2a2a2a;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -66,7 +83,7 @@ html,body{
 }
 
 .s-section{
-    background: #000000;
+    background:var(--second-bg-color);
     
 }
 label{
@@ -84,7 +101,9 @@ label{
 }
 .about-txt{
     text-align: center;
-    font-family: 'Alumni Sans', sans-serif;
+    font-weight: 600;
+    font-size: 2.2rem;
+
        
 }
 
@@ -99,7 +118,7 @@ label{
     color: #ffffff;
     border-bottom: 3px solid #ffffff;
     padding-bottom: 18px;
-    font-family: 'Alumni Sans', sans-serif;
+   
 }
 
 
@@ -139,32 +158,33 @@ label{
 .section-service{
 
     height: 100%;
-    background:#000000a4 url('images/service-bg.jpg');
+    background:#00000094 url('images/service-bg.jpg');
+    background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-  
     background-blend-mode:darken ;
 
 }
 .service-txt-style{
 
     color: white;
-    height: auto;
     text-align: center;
-    font-size: 42px;
-    width: auto;
-    font-family: 'Alumni Sans', sans-serif;
+    font-size: 2.2rem;
+    font-weight: 600;
+    height: auto;
+
+
+   /* font-family: 'Alumni Sans', sans-serif; */
    
 }
 .card-b{
    background-color: #000000;
-   font-family:  sans-serif;
    color: #ffffff;
    border-top-right-radius:24px ;
    text-align: justify;
    border: none;
-   box-shadow: 4px 4px 10px 2px #31004392;
+   box-shadow: 4px 4px 10px 2px #85260052;
    
 }
 
@@ -191,7 +211,7 @@ label{
     font-style: italic;
     text-align: center;
     color: white;
-    font-family: sans-serif;
+   
 }
 .arow-icon{
     padding-left: 80px;

@@ -30,6 +30,7 @@ html,body{
 
     font-size: 20px;  
     font-weight: 500;
+    
 }
 
 
@@ -72,7 +73,7 @@ span{
 .homebg-img{
 
     height: 100%;
-    background:#2a2a2a;
+    background:#202020;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -83,7 +84,7 @@ span{
 }
 
 .s-section{
-    background:var(--second-bg-color);
+    background: #191919;
     
 }
 label{
@@ -97,8 +98,8 @@ label{
 
 .row-content{
     text-align: center;
-
 }
+
 .about-txt{
     text-align: center;
     font-weight: 600;
@@ -109,8 +110,7 @@ label{
 
 .about-img{
     width: 280px; 
-    height: 280px;
-    border-radius: 20px;
+    height: 300px;
     border: 3px solid yellowgreen;
 }
 
@@ -184,6 +184,7 @@ label{
    border-top-right-radius:24px ;
    text-align: justify;
    border: none;
+   transform: scale(.9);
    box-shadow: 4px 4px 10px 2px #85260052;
    
 }
@@ -191,7 +192,7 @@ label{
 
 .card-b:hover{
 
-    transform: scale(1.1);
+    transform: scale(1);
     transition: 0.5s;
     background-color: #ffffff;
     color: #000000;

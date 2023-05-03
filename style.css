@@ -6,6 +6,7 @@ html,body{
     overflow-x: hidden;
     scroll-behavior: smooth;
     font-family: 'Poppins', sans-serif;
+    background-color: #101010;
 
     /* #0a1930 main color
     font-family: 'Cinzel', serif ;
@@ -22,7 +23,7 @@ html,body{
 }
 
 .header{
-    background-color: #202020;
+    background-color: #000000;
     
 }
 
@@ -59,7 +60,7 @@ span{
 .btn-contact{
     background: #ff4d05;
     color: #ffffff;
-    font-size: 20px;
+    font-size: 18px;
     border-radius: 6px;
     height: 40px;
     border: none;
@@ -73,7 +74,7 @@ span{
 .homebg-img{
 
     height: 100%;
-    background:#202020;
+    background:#101010;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -84,7 +85,7 @@ span{
 }
 
 .s-section{
-    background: #191919;
+    background-color: #191919;
     
 }
 label{
@@ -114,27 +115,57 @@ label{
     border: 3px solid yellowgreen;
 }
 
+
+.btn-knowmore{
+
+    background-color: #ff4d05;
+    width: 145px;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: 500;
+    border-radius: 24px;
+    height: 45px;
+    border: none;
+}
+
+
+.btn-knowmore:hover{
+    background-color: transparent;
+    border: 2px solid #ff4d05;
+    text-decoration: none;
+
+}
+
 .text-contact{
+
     color: #ffffff;
-    border-bottom: 3px solid #ffffff;
-    padding-bottom: 18px;
+    font-weight: 600;
+    font-size: 2.2rem;
+    text-align: center;
    
 }
 
 
 .contact-color{
-  background: #000000;
+  background-color: #101010;
   
 }
+
 .footer-clr{
-    background-color: #ffffff;
+    background-color: #000000;
+    color: #ffffff;
+    font-weight: 400;
 }
-.input-space{
-    background-color: #ffffff;
-    color: #000000;
-    font-weight: 500;
+
+
+.submit-btn{
+
+    background-color: #ff4d05;
+    width: 100%;
+    color: #ffffff;
+    font-weight: 600;
     font-size: 16px;
-    border-radius: 6px;
+    border-radius: 8px;
 }
 
 .input-style{
@@ -142,10 +173,10 @@ label{
     display: block;
     width: 100%;
     padding: .375rem .75rem;
-    color: #000000;
-    background-color: #ffffff;
-    border: 1px solid #000000;
-    border-radius: 6px;
+    color: #ffffff;
+    background-color: #202020;
+    border: 1px solid #202020;
+    border-radius: 8px;
 
 
 }
@@ -208,8 +239,6 @@ label{
 
 
 .offer{
-    font-size: 18px;
-    font-style: italic;
     text-align: center;
     color: white;
    
@@ -218,10 +247,6 @@ label{
     padding-left: 80px;
     margin-top: -45px;
     
-
-}
-body{
-    margin: 0;
 
 }
 

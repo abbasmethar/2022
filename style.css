@@ -22,9 +22,16 @@ html,body{
 }
 
 .header{
-    background-color: #000000;
+
+    background: #00000000;
+}
+
+
+.header-style{
+    background: #000000;
     
 }
+
 
 .navtxt{
 
@@ -119,8 +126,8 @@ label{
 }
 
 .about-img{
-    width: 260px; 
-    height: 320px;
+    width: 290px; 
+    height: 350px;
     border-radius: 8px;
 
 }
@@ -275,4 +282,21 @@ label{
    
 
 }
+.footer-list li{
 
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 500; 
+    padding-bottom:5px ;
+
+}
+.footer-list li:hover{
+    text-decoration: none;
+}
+.final-section{
+    padding-top: 4rem;
+    margin-top: 2rem;
+    background: #090909;
+
+
+}

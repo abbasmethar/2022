@@ -50,7 +50,7 @@ html,body{
 
    color : #ffffff;
    margin-left: 8px;
-   font-weight: 600;
+   font-weight: 500;
 
 }
 
@@ -92,7 +92,7 @@ span{
 .homebg-img{
 
     height: 100%;
-    background: #000000b0  url("images/homepage.jpg");
+    background: #000000b5  url("images/mypicture.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -128,7 +128,7 @@ label{
 
 .about-img{
     width: 290px; 
-    height: 36ipx;
+    height: 360px;
     border-radius: 8px;
 
 }
@@ -217,7 +217,7 @@ label{
 
     height: 100%;
     background:#000000b4 url('images/service-bg.jpg');
-   
+    background-attachment:fixed;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

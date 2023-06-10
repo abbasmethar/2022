@@ -5,6 +5,7 @@ html,body{
     width: 100%;
     overflow-x: hidden;
     font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
     background-color: #101010;
 
     /* #0a1930 main color
@@ -127,7 +128,7 @@ label{
 
 .about-img{
     width: 290px; 
-    height: 350px;
+    height: 36ipx;
     border-radius: 8px;
 
 }
@@ -215,8 +216,8 @@ label{
 .section-service{
 
     height: 100%;
-    background:#00000094 url('images/service-bg.jpg');
-    background-attachment: fixed;
+    background:#000000b4 url('images/service-bg.jpg');
+   
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

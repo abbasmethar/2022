@@ -13,7 +13,7 @@ $(document).ready(function(){
   })
 
   
-  $("#submit-form").submit((e)=>{
+  /*$("#submit-form").submit((e)=>{
       e.preventDefault()
       $.ajax({
           url:"https://script.google.com/macros/s/AKfycbwXXcesDs8FZRAxgCGs1Vd7LXii9VSoCrQTr5N6mMzhcClIMZVVlqtKs1WnBD7dNIxf/exec",
@@ -30,3 +30,4 @@ $(document).ready(function(){
           }
       })
   })
+*/
